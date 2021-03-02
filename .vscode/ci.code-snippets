@@ -1,4 +1,13 @@
 {
+  "istanbul whole file": {
+    "scope": "javascript,typescript",
+    "prefix": "cov.ignore-whole-file",
+    "body": [
+      "/* istanbul ignore file */",
+    ],
+    "description": "istanbul ignore whole file"
+  },
+
   "istanbul ignore next": {
     "scope": "javascript,typescript",
     "prefix": "cov.ignore-next",
@@ -10,7 +19,7 @@
 
   "istanbul ignore if": {
     "scope": "javascript,typescript",
-    "prefix": "istanbul.ignore-if",
+    "prefix": "cov.ignore-if",
     "body": [
       "/* istanbul ignore if */",
     ],

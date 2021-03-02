@@ -10,4 +10,13 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "[markdown]": {
+    "editor.quickSuggestions": true,
+    "files.trimTrailingWhitespace": false
+  },
+  "[typescript]": {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": false
+  },
+  "workbench.editor.wrapTabs": true
 }
